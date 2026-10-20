@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Creamy White Sauce Pasta recipe card — horizontal editorial layout with ingredients, steps, timings, and interactive checklist. Veda Technology Web Development Internship Day 11." />
+  <title>Creamy White Sauce Pasta | Recipe Card</title>
+  <meta name="author" content="Abhishek Jadhav" />
+  <meta name="theme-color" content="#1f4d3a" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#recipe">Skip to recipe</a>
+
+  <div class="bg-shape bg-shape--one" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape--two" aria-hidden="true"></div>
+
+  <main class="page">
+    <article class="recipe-card" id="recipe" aria-labelledby="recipeTitle">
+      <figure class="recipe-card__media">
+        <img
+          src="https://images.pexels.com/photos/18357403/pexels-photo-18357403.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Creamy pasta with fresh tomatoes and herbs on a wooden table"
+          width="800"
+          height="1421"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          onerror="this.onerror=null;this.src='https://images.pexels.com/photos/14564826/pexels-photo-14564826.jpeg?auto=compress&cs=tinysrgb&w=800';"
+        />
+        <div class="media__overlay">
+          <span class="badge badge--solid">Easy</span>
+        </div>
+        <figcaption class="visually-hidden">Creamy white sauce pasta served hot with parmesan and basil.</figcaption>
+      </figure>
+
+      <div class="recipe-card__content">
+        <header class="recipe-card__header">
+          <p class="eyebrow">Italian-inspired &bull; Weeknight dinner</p>
+          <h1 id="recipeTitle">Creamy White Sauce Pasta</h1>
+          <p class="lede">
+            Silky penne tossed in a homemade garlic-parmesan cream sauce, finished
+            with fresh parsley and cracked pepper. Ready in under half an hour.
+          </p>
+        </header>
+
+        <section class="stats" aria-label="Recipe details">
+          <div class="stat">
+            <span class="stat__label">Prep</span>
+            <span class="stat__value">10 min</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Cook</span>
+            <span class="stat__value">15 min</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Total</span>
+            <span class="stat__value">25 min</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Serves</span>
+            <span class="stat__value">2</span>
+          </div>
+        </section>
+
+        <div class="tag-row" aria-label="Recipe tags">
+          <span class="badge">Difficulty: Easy</span>
+          <span class="badge badge--outline">Vegetarian</span>
+          <span class="badge badge--outline">Kid-friendly</span>
+        </div>
+
+        <section class="ingredients" aria-labelledby="ingredientsHeading">
+          <div class="section-head">
+            <h2 id="ingredientsHeading">Ingredients</h2>
+            <div class="progress" role="progressbar" aria-label="Ingredients checked" aria-valuemin="0" aria-valuemax="12" aria-valuenow="0">
+              <div class="progress__bar"></div>
+            </div>
+            <p class="progress__text"><span id="checkedCount">0</span> of <span id="totalCount">12</span> checked</p>
+          </div>
+          <ul class="ingredient-list">
+            <li><label><input type="checkbox" data-ingredient /><span>200 g penne</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>2 tbsp butter</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>3 cloves garlic</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>2 tbsp flour</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>1&frac12; cups milk</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>&frac12; cup cream</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>&frac12; cup parmesan</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>&frac14; tsp pepper</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>Salt</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>1 tsp oregano</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>2 tbsp parsley</span></label></li>
+            <li><label><input type="checkbox" data-ingredient /><span>1 tbsp olive oil</span></label></li>
+          </ul>
+        </section>
+
+        <section class="steps-section" aria-labelledby="stepsHeading">
+          <h2 id="stepsHeading">Preparation</h2>
+          <ol class="steps">
+            <li style="--i:1">Boil salted water; cook penne al dente. Reserve &frac14; cup pasta water.</li>
+            <li style="--i:2">Melt butter; saut&eacute; garlic 30 seconds until fragrant.</li>
+            <li style="--i:3">Whisk in flour 1 minute for a smooth roux.</li>
+            <li style="--i:4">Pour in warm milk; whisk smooth. Cook 3&ndash;4 minutes.</li>
+            <li style="--i:5">Stir in cream and parmesan; season; simmer 2 minutes.</li>
+            <li style="--i:6">Toss pasta in sauce, loosening with pasta water.</li>
+            <li style="--i:7">Finish with oil, parsley, parmesan; serve.</li>
+          </ol>
+        </section>
+
+        <p class="tip">
+          <span class="tip__label">Chef's tip:</span>
+          Grate parmesan fresh from a block &mdash; pre-grated cheese can make the sauce grainy.
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="page-footer">
+    <p>Veda Technology &bull; 45-Day Web Development Internship &bull; Day 11 &bull; Built by Abhishek Jadhav</p>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

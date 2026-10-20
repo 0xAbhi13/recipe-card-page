@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" role="img" aria-label="Mobile recipe card">
+  <rect width="360" height="720" fill="#faf6f0"/>
+  <rect x="24" y="30" width="312" height="660" rx="18" fill="#ffffff" stroke="#e8dccf"/>
+  <rect x="44" y="55" width="272" height="150" rx="12" fill="#f3ece2"/>
+  <text x="180" y="140" text-anchor="middle" font-family="Georgia" font-size="18" fill="#3a2a1f">Creamy White Sauce Pasta</text>
+  <rect x="44" y="225" width="130" height="48" rx="8" fill="#fffaf3" stroke="#e8dccf"/>
+  <rect x="186" y="225" width="130" height="48" rx="8" fill="#fffaf3" stroke="#e8dccf"/>
+  <rect x="44" y="285" width="130" height="48" rx="8" fill="#fffaf3" stroke="#e8dccf"/>
+  <rect x="186" y="285" width="130" height="48" rx="8" fill="#fffaf3" stroke="#e8dccf"/>
+  <rect x="44" y="350" width="272" height="150" rx="8" fill="#fffaf3"/>
+  <rect x="44" y="515" width="272" height="150" rx="8" fill="#fffaf3"/>
+</svg>
