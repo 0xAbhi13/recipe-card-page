@@ -20,9 +20,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=202522&center=true&vCenter=true&width=660&lines=One+Recipe+%F0%9F%8D%9D;Image+Left+%E2%80%A2+Content+Right;Check+Ingredients+%E2%80%A2+Track+Progress" alt="Greeting typing animation" />
 </div>
 
-Redesigned Recipe Card Page of **Abhishek Jadhav** — Web Developer & first-year BCA student at VIIT, Baramati. Built with **HTML5 + CSS3 + Vanilla JavaScript**: a horizontal, editorial-style recipe card for Creamy White Sauce Pasta with an interactive ingredient checklist and progress indicator. No frameworks, no build step, no backend.
-
-> **Internship attribution:** 45-day Web Development Internship at **Veda Technology** — Day 11: Recipe Card Page (redesigned).
 
 <details>
 <summary><b>📖 Table of Contents (click to expand)</b></summary>
@@ -34,11 +31,6 @@ Redesigned Recipe Card Page of **Abhishek Jadhav** — Web Developer & first-yea
 - [📁 Project Structure](#-project-structure)
 - [🚀 How to Run](#-how-to-run)
 - [🔗 Profile Links](#-profile-links)
-- [📸 Screenshots](#-screenshots)
-- [🧪 Testing Checklist](#-testing-checklist)
-- [🌐 Deployment](#-deployment)
-- [⚠️ Limitations](#️-limitations)
-- [🔍 Accuracy Notes](#-accuracy-notes)
 
 </details>
 
@@ -158,83 +150,6 @@ node --check script.js
 | ![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white) | https://www.linkedin.com/in/0xabhi13/ |
 | ![Portfolio](https://img.shields.io/badge/Portfolio-1f4d3a?style=flat-square&logo=globe&logoColor=white) | https://0xabhi13.github.io/MyPortfolio/ |
 
----
-
-## 📸 Screenshots
-
-**Desktop — horizontal card**
-
-![Recipe card desktop view](./assets/screenshot-desktop.svg)
-
-**Tablet — stacked layout**
-
-![Recipe card tablet view](./assets/screenshot-tablet.svg)
-
-**Mobile — single column**
-
-![Recipe card mobile view](./assets/screenshot-mobile.svg)
-
----
-
-## 🧪 Testing Checklist
-
-**Real browser:**
-
-- [x] Page loads from `file://`; `style.css` and `script.js` load; **no console errors**.
-- [x] Desktop card is horizontal: image left, content right.
-- [x] Card is ~1120px wide with balanced height.
-- [x] Ingredients render as a native `<ul>` with 12 items.
-- [x] Preparation steps render as a native `<ol>` with 7 numbered items.
-- [x] Meta tiles show Prep 10 min, Cook 15 min, Total 25 min, Servings 2.
-- [x] Clicking an ingredient toggles its checked state and strikes through the text.
-- [x] Progress bar and count update as ingredients are checked.
-- [x] Food image loads from Pexels; fallback swaps in if it fails.
-- [x] Layout has no horizontal scrolling at ~320 / 375 / 768 / 1024 / desktop widths.
-- [x] Single-column layout below 980px.
-- [x] `prefers-reduced-motion: reduce` disables animations.
-- [x] Visible `:focus-visible` ring on skip link and controls.
-- [x] `node --check script.js` passes.
-
----
-
-## 🌐 Deployment
-
-**GitHub Pages:**
-
-```powershell
-Set-Location "<path-to>\internship-task-11"
-git init -b main
-git add index.html style.css script.js README.md Veda_Technology_Task_11_Project_Report.docx assets
-git commit -m "Day 11: Recipe Card Page redesign (HTML + CSS + JS)"
-git remote add origin <your-repository-url>
-git push -u origin main
-```
-
-Then GitHub → **Settings → Pages → Deploy from a branch → `main` / root** → GitHub shows your live URL.
-
-> Keep `index.html`, `style.css`, `script.js`, and `assets/` together with relative links so Pages resolves them correctly. The repository URL above is a placeholder — replace it with your real repo.
-> **Nothing has been committed or pushed yet, and no repository has been created**; the commands are provided for the submission step only.
-
----
-
-## ⚠️ Limitations
-
-- **Single recipe** — only Creamy White Sauce Pasta is presented.
-- **Image depends on the network** — loaded from Pexels; `onerror` fallback covers a single failure.
-- **Progress resets on reload** — checked state is not persisted.
-- **No print stylesheet** — optional enhancement for later days.
-
----
-
-## 🔍 Accuracy Notes
-
-- Every test result above comes from checks executed against these files — no invented numbers.
-- 12 ingredients and 7 steps match the recipe content exactly.
-- Semantic elements are present and correct.
-- Lists use native `ul`/`ol` elements.
-- Alt text is present on the food image.
-- Skills are presented as *learning/using* at internship level.
-- The page makes no network requests beyond the food image.
 
 ---
 
